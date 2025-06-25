@@ -1,16 +1,50 @@
-# recipe_app
+Recipe Explorer
+Recipe Explorer is a Flutter-based mobile application that allows users to browse, explore, and view detailed recipes. Designed with a user-friendly interface, the application showcases a curated collection of recipe cards representing various dishes. Upon tapping any recipe card, users are directed to a dedicated screen containing detailed information about the selected dish.
 
-A new Flutter project.
+Features
+Interactive Recipe Cards: Users can scroll through visually appealing recipe cards. Each card represents a unique dish.
 
-## Getting Started
+Detail View Navigation: Clicking on a recipe card opens a detailed view, presenting the recipe, ingredients, and preparation instructions.
 
-This project is a starting point for a Flutter application.
+Scroll Controller Integration: Smooth and efficient scrolling experience using ScrollController, ensuring performance and responsiveness.
 
-A few resources to get you started if this is your first Flutter project:
+Medium-Level Flutter Concepts:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Stateful and Stateless Widgets
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Custom Widgets for recipe cards
+
+Navigation using Navigator.push
+
+Use of ScrollController for dynamic content control
+
+Asset management for images and data
+
+Structured Layout: Uses Flutter's layout widgets such as ListView, Column, Stack, and Card for building an intuitive and clean UI.
+
+#Dummy respresentation of architecture of project:
+
+
+lib/
+├── main.dart
+├── models/
+│   └── recipe_model.dart
+├── screens/
+│   ├── home_screen.dart
+│   └── recipe_detail_screen.dart
+├── widgets/
+│   └── recipe_card.dart
+assets/
+└── images/
+    ├── dish1.jpg
+    └── dish2.jpg
+
+
+Future Improvements
+Search functionality
+
+Recipe filtering by category
+
+Favorites feature
+
+Backend integration for dynamic data
