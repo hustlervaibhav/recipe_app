@@ -25,19 +25,19 @@ Structured Layout: Uses Flutter's layout widgets such as ListView, Column, Stack
 #Dummy respresentation of architecture of project:
 
 
-lib/
-├── main.dart
-├── models/
-│   └── recipe_model.dart
-├── screens/
-│   ├── home_screen.dart
-│   └── recipe_detail_screen.dart
-├── widgets/
-│   └── recipe_card.dart
-assets/
-└── images/
-    ├── dish1.jpg
-    └── dish2.jpg
+lib/\n
+├── main.dart\n
+├── models/\n
+│   └── recipe_model.dart\n
+├── screens/\n
+│   ├── home_screen.dart\n
+│   └── recipe_detail_screen.dart\n
+├── widgets/\n
+│   └── recipe_card.dart\n
+assets/\n
+└── images/\n
+    ├── dish1.jpg\n
+    └── dish2.jpg\n
 
 
 Future Improvements
